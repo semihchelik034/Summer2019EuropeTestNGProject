@@ -21,6 +21,7 @@ public class XpathTest {
 
         searchBox.sendKeys("selenium");
 
+
         searchElement.click();
 
     }
