@@ -21,6 +21,8 @@ public class CssTest {
 
         System.out.println("message = " + message);
 
+        driver.quit();
+
 
     }
 }

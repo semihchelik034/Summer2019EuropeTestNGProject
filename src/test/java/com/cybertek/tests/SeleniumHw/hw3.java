@@ -53,6 +53,6 @@ public class hw3 {
         }
 
         //qut browser
-        //driver.quit();
+        driver.quit();
     }
 }

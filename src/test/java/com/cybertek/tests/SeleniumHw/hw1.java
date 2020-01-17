@@ -31,10 +31,10 @@ public class hw1 {
         WebElement results = driver.findElement(By.xpath("//h1[@class=\"srp-controls__count-heading\"]/*[1]"));
 
         //printing number of results
-        String[] resultsString = results.getText().split(" ");
+        String resultsString = results.getText();
 
         //printing number of results
-        System.out.println("resultsNumber = " + resultsString[0]);
+        System.out.println("resultsNumber = " + resultsString);
 
         //quit browser
         driver.quit();
