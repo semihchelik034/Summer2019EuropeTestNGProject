@@ -11,5 +11,7 @@ public class TestNGAssertionsDemo {
         Assert.assertFalse("emails@".contains("@"),"Verify @");
 
         Assert.assertNotEquals("5.51","6.00","Break time!");
+
+        Assert.assertTrue("emails@".contains("@"),"Verify that email includes @ sign");
     }
 }

@@ -2,7 +2,7 @@ package com.cybertek.tests.day7_testng;
 
 import org.testng.annotations.Test;
 
-public class FIrstTestNGTest {
+public class FirstTestNGTest {
 
         @Test
         public void test1(){
