@@ -12,7 +12,7 @@ public class NegativeLoginTests extends TestBase {
         public void wrongPasswordTest(){
             LoginPage loginPage = new LoginPage();
 
-            loginPage.usernmaeInput.sendKeys("user1");
+            loginPage.usernameInput.sendKeys("user1");
             loginPage.passwordInput.sendKeys("UserUser1234");
             loginPage.loginBtn.click();
 
